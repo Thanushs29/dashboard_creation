@@ -1,6 +1,6 @@
 function test() {
     const x = document.getElementById('name').value,
-    url = 'dashboard.html?name=' + encodeURIComponent(x);
+    url = 'https://thanushs29.github.io/dashboard_creation/dashboard.html?name=' + encodeURIComponent(x);
 
     document.location.href = url;
     var y = document.getElementById('name').value
