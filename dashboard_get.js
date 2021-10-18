@@ -1,4 +1,4 @@
-function test() {
+/*function test() {
     const x = document.getElementById('name').value,
     url = 'https://thanushs29.github.io/dashboard_creation/dashboard.html?name=' + encodeURIComponent(x);
 
@@ -19,3 +19,4 @@ window.onload = function () {
     document.getElementById('here').innerHTML = data.name;
     document.getElementById('here1').innerHTML= data.name;
     }
+*/
