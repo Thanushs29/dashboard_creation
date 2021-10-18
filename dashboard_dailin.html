@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Dashboard creation</title>
+        <link rel="stylesheet" href="dashboard.css">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body bgcolor="#D8D8D8">
+        <div class="sidebar">
+            <ul class="order">
+                <li>
+                    <a href="dashboard.html" class="inactive">
+                    <i class='bx bx-home'></i><span class="links_name">HOME</span></a>
+                </li>
+                <li>
+                    <a href="dashboard_calendar.html" class="inactive">
+                    <i class='bx bx-calendar'></i><span class="links_name">Calendar</span></a>
+                </li>
+                <li>
+                    <a href="dashboard_game.html" class="inactive">
+                    <i class='bx bx-game'></i><span class="links_name">GAME</span></a>
+                </li>
+                <li>
+                    <a href="dashboard_dailin.html"class="active">
+                    <i class='bx bx-phone-call'></i><span class="links_name">DAIL_IN</span></a>
+                </li>
+                <li>
+                    <a href="dashboard_time.html" class="inactive">
+                    <i class='bx bx-time'></i><span class="links_name">CURRENT TIME</span></a>
+                </li>
+                <li>
+                    <a href="dashboard_calci.html" class="inactive">
+                    <i class='bx bx-calculator'></i><span class="links_name">CALCULATOR</span></a>
+                </li>
+                <li>
+                    <a href="dashboard_login.html" class="inactive">
+                    <i class='bx bx-log-out'></i><span class="links_name">LOG_OUT</span></a>
+                </li>
+            </ul>
+        </div>
+        <section class="home-section">
+            <nav>
+              <div class="sidebar-button">
+                <i class='bx bx-menu sidebarBtn'></i>
+                <span class="dashboard">Dashboard</span>
+              </div>
+              
+            </nav>
+        <script src="dashboard.js"></script>
+        
+        
+        <div class="dailin" style="align-items: center;"><center>
+            <table border=1><br><br><br><br><br>
+                <p>Could not be alble to call with this..</p><br>
+                <tr>
+                    <td colspan="3"><input type="text" id="result"/></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1" onclick="dis('1')"/> </td>
+                    <td><input type="button" value="2" onclick="dis('2')"/> </td>
+                    <td><input type="button" value="3" onclick="dis('3')"/> </td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4" onclick="dis('4')"/> </td>
+                    <td><input type="button" value="5" onclick="dis('5')"/> </td>
+                    <td><input type="button" value="6" onclick="dis('6')"/> </td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="7" onclick="dis('7')"/> </td>
+                    <td><input type="button" value="8" onclick="dis('8')"/> </td>
+                    <td><input type="button" value="9" onclick="dis('9')"/> </td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="*" onclick="dis('*')"/> </td>
+                    <td><input type="button" value="0" onclick="dis('0')"/> </td>
+                    <td><input type="button" value="#" onclick="dis('#')"/> </td>
+                </tr>
+            </table>
+                <table>
+                <tr>
+                    <td><input type="button" value="    Call     " onclick="jstest()"></td>
+                </tr>
+            </center>  
+        </div>
+    </body>
+</html>
